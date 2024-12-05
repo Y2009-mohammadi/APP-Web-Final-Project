@@ -1,0 +1,173 @@
+html,body{
+    padding-left: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(161, 217, 243);
+    text-align: center;
+    color: black;
+    height: 60%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+ 
+.header{
+position: relative;
+height: 65vh;
+background: url(background.jpg);
+display: flex;
+align-items: center;
+justify-content: center;
+color:black;
+text-align: center;
+background-size:cover;
+}
+header .over-lay{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+.header h1{
+font-size: 3rem;
+text-shadow: 15px 15px 15px;
+}
+.header p{
+    font-size: 1.2rem;
+    margin: 10px ;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    font-size: 100px;
+    margin: 50px;
+    border:solid 3px white;
+    border-radius: 20px;
+    padding:40px;
+    margin:auto;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size:20px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+nav a:hover {
+    color: red;
+}
+button{
+    width: 150px;
+    
+    
+}
+button:hover{
+    background-color:lightblue;
+    
+}
+#contact{
+font-size: 20px;
+font-style: italic;
+border: solid 5px black;
+padding: 15px;
+margin-left: 100px;
+margin-right: 100px;
+margin-top: 50px;
+}
+#contact a:hover{
+    color: red;
+}/* Write CSS here */#container {
+    
+    background-color: skyblue;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+/* 2. Put the label tag in its own row by changing the display, but there is problem with the radio button and textbox labels */
+
+.button-row {
+text-align: center;
+}
+.btn{
+background-color: #007bff;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 1rem;
+}
+.btn:hover{
+    background-color: #70859a;
+}
+.content{
+    display:flexbox;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    flex: 1;
+    margin: 10px;
+    justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: inherit;
+}
+.card{
+     border-radius: 10px;
+     padding: 20px;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     text-align: center;
+     width: 300px;
+     border: 3px solid white;
+     display:flexbox;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.map p{
+border: 3px solid black;
+padding: 30px;
+margin: 50px;
+}
+.parent{
+    display: flex;
+    gap:35px;
+}
+#form div{
+display: block;
+border-bottom: solid 1px black;
+padding: 20px;
+
+}
+input{
+    width: 300px;
+    height: 50px;
+    display: block;
+    text-align: left;
+}
+label{
+    text-align: left;
+    display: block;
+}
+textarea{
+    display: block;
+}
+#country{
+    height: 50px;
+     width: 300px;
+     display: block;
+
+}
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 20px;
+    font-style: oblique;
+    border:solid 3px white;
+    border-radius: 20px;
+    padding:20px;
+    margin: 40px;;
+}
